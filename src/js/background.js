@@ -1,0 +1,13 @@
+chrome.tabs.onSelectionChanged.addListener(function(tabId,t){
+	/*
+	chrome.tabs.getSelected(function(tab){
+		//alert(tab.id);
+		chrome.tabs.executeScript(tab.id,{
+			file:"js/jquery.js"
+		});
+		chrome.tabs.executeScript(tab.id,{
+			file:"js/init.js"
+		});
+	});
+	*/
+});

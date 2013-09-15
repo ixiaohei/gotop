@@ -1,0 +1,13 @@
+#contIcon{
+	height: 31px;
+	width: 31px;
+	position: fixed;
+	z-index: 10;
+	bottom: 10%;
+	right: 10%;
+}
+#head_a{
+	/*display: none;*/
+	height: 0px;
+	width: 100%;
+}

@@ -1,0 +1,35 @@
+{
+"name": "GoTop",
+"version": "1.0",
+"manifest_version":2,
+"description":"一个由小黑开发的置顶的工具插件！",
+"icons":{
+	"16":"image/icon.png",
+	"48":"image/icon.png",
+	"128":"image/icon.png"
+},
+"background":{"scripts":["js/background.js","js/jquery.js"]},
+/*
+"browser_action": {
+	"default_icon":"image/icon.png",
+	"default_popup":"popup.html",
+	"default_title":"测试"
+},*/
+"content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "js": ["js/jquery.js", "js/init.js"],
+      "css":["content.css"]
+    }
+  ],
+"permissions": [
+	"http://*/*",
+	"tabs",
+	"contextMenus",
+	"notifications"
+],
+"web_accessible_resources":[
+	"image/icon.png",
+	"image/gotop.gif"
+]
+}
