@@ -1,13 +1,17 @@
-#contIcon{
+#contIcon {
 	height: 31px;
 	width: 31px;
 	position: fixed;
-	z-index: 10;
+	z-index: 3000;
 	bottom: 10%;
-	right: 10%;
+	right: 7%;
 }
-#head_a{
+#head_a123456789 {
 	/*display: none;*/
 	height: 0px;
 	width: 100%;
+	border:0px white solid;
+}
+#cont_a123456789 {
+	display: none;
 }
